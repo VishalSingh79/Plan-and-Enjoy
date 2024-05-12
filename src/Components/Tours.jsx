@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Card from './Card'
 
@@ -19,3 +20,4 @@ function Tours({tours,removeTour}) {
 }
 
 export default Tours
+

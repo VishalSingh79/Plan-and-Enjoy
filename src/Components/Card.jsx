@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { useState } from 'react';
 function Card({id,name,info,image,price,removeTour}) {
@@ -32,3 +33,4 @@ function Card({id,name,info,image,price,removeTour}) {
 }
 
 export default Card
+
