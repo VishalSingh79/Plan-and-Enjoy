@@ -23,8 +23,8 @@ function App() {
     }
   return (
     <div className='container'>
-       <div className='head'>
-        <h2>Plan and Enjoy</h2>
+       <div className='main-head'>
+        <h2 className='head'>Plan and Enjoy</h2>
        </div>
        <div className='tour'>
        <Tours tours={tours} removeTour={removeTour}/>

@@ -5,7 +5,7 @@ import Card from './Card'
 
 function Tours({tours,removeTour}) {
   return (
-    <div>
+  
         <div className='cards'>
                {
                  tours.map((tour)=>{
@@ -15,7 +15,6 @@ function Tours({tours,removeTour}) {
                  })
                }
         </div>
-    </div>
   )
 }
 
